@@ -21,7 +21,7 @@ namespace AllworxLib
         private string cAccCode;
 
 
-        // Constructor that takes one argument which is a raw call
+        // Constructor that takes one argument. 
         public AllworxCall(string c)
         {
             call = c;
