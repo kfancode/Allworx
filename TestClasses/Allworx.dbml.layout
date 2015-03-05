@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Allworx">
+  <DataContextMoniker Name="/AllworxDataContext" />
+  <nestedChildShapes>
+    <classShape Id="547f4b13-46cd-44a0-ac5b-c1291d9118b4" absoluteBounds="5.375, 1.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/AllworxDataContext/chargedcall" />
+      <nestedChildShapes>
+        <elementListCompartment Id="aa66825e-ffd6-4170-a865-49ff9c16349b" absoluteBounds="5.39, 2.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

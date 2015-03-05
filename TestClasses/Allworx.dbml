@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Allworx" Class="AllworxDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=PIC-9R0QYZ1\LOCALSQL;Initial Catalog=Allworx;Persist Security Info=True;User ID=sa;Pooling=False" SettingsObjectName="TestClasses.Properties.Settings" SettingsPropertyName="AllworxConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.chargedcalls" Member="chargedcalls">
+    <Type Name="chargedcall">
+      <Column Name="calldate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="calltime" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="calltype" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="placedto" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="placedfrom" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="duration" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="rate" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="charge" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="acctcode" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
